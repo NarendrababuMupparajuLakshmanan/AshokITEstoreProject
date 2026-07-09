@@ -1,0 +1,60 @@
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Dotnet publish
+publish/
+*.Publish.xml
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# npm
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secret storage
+secrets.json
+secrets.*.json
+
+# Database files
+*.mdf
+*.ldf
+
+# IIS Express
+/.vs/*/applicationhost.config
+
+# Temporary files
+*.tmp
+*.temp
+
+
+# Razor / generated
+*.razor.*
+

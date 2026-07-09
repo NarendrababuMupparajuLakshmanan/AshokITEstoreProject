@@ -302,3 +302,4 @@ D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAd
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.pdb
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.genruntimeconfig.cache
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\ref\EstoreAdminModule.dll
+D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.sourcelink.json
