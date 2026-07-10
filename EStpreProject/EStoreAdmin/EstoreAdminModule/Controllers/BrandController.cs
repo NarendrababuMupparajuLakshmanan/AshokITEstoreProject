@@ -8,8 +8,6 @@ namespace EstoreAdminModule.Controllers
     public class BrandController : Controller
     {
         private readonly IBrandService _brandService;
-        private readonly IBrandService _brandService1;
-        private readonly IBrandService _brandService2;
 
         //Dependency Injection of BrandService Object
         public BrandController(IBrandService brandService)
@@ -27,9 +25,25 @@ namespace EstoreAdminModule.Controllers
             return View(brandModels);
         }
 
-        public string About()
+        [HttpGet]
+        [Route("Create")]
+        public IActionResult Create()
         {
-            return "Welcome To About";
+            CreateBrandModel createBrandModel = new CreateBrandModel();
+
+            //ViewModel Binding to View data in the User Interface
+            return View(createBrandModel);
         }
+
+        [HttpPost]
+        [Route("Create")]
+        public IActionResult Create(CreateBrandModel createBrandModel)
+        {
+
+            this._brandService.CreateBrand(createBrandModel);
+
+            return RedirectToAction("Index");
+        }
+      
     }
 }

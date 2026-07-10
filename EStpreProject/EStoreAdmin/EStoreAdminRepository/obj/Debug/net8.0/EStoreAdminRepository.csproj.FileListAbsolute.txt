@@ -26,6 +26,7 @@ D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAd
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAdminRepository\obj\Debug\net8.0\EStoreAdminRepository.AssemblyInfoInputs.cache
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAdminRepository\obj\Debug\net8.0\EStoreAdminRepository.AssemblyInfo.cs
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAdminRepository\obj\Debug\net8.0\EStoreAdminRepository.csproj.CoreCompileInputs.cache
+D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAdminRepository\obj\Debug\net8.0\EStoreAdminRepository.sourcelink.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAdminRepository\obj\Debug\net8.0\EStoreAd.1F80D470.Up2Date
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAdminRepository\obj\Debug\net8.0\EStoreAdminRepository.dll
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EStoreAdminRepository\obj\Debug\net8.0\refint\EStoreAdminRepository.dll

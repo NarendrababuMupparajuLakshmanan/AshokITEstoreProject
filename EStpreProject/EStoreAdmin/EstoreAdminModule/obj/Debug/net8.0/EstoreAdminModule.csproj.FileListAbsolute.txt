@@ -153,8 +153,8 @@ D:\AshokIT\Projects\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\appsettings.Development.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\appsettings.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\libman.json
-D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\EstoreAdminModule.staticwebassets.endpoints.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\EstoreAdminModule.staticwebassets.runtime.json
+D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\EstoreAdminModule.staticwebassets.endpoints.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\EstoreAdminModule.exe
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\EstoreAdminModule.deps.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\bin\Debug\net8.0\EstoreAdminModule.runtimeconfig.json
@@ -286,6 +286,7 @@ D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAd
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.MvcApplicationPartsAssemblyInfo.cache
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.RazorAssemblyInfo.cache
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.RazorAssemblyInfo.cs
+D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.sourcelink.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -302,4 +303,3 @@ D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAd
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.pdb
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.genruntimeconfig.cache
 D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\ref\EstoreAdminModule.dll
-D:\GItSourceCode_AshokIT\AshokITEstoreProject\EStpreProject\EStoreAdmin\EstoreAdminModule\obj\Debug\net8.0\EstoreAdminModule.sourcelink.json

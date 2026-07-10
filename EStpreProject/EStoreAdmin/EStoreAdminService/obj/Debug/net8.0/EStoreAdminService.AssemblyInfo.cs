@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EStoreAdminService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c629aadeb8aceba8d95401fef1b0ea77e3316545")]
 [assembly: System.Reflection.AssemblyProductAttribute("EStoreAdminService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EStoreAdminService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
