@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstoreAdminModule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c629aadeb8aceba8d95401fef1b0ea77e3316545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d25fdc80750abc8eac35bac0c2df2110af06854d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstoreAdminModule")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstoreAdminModule")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

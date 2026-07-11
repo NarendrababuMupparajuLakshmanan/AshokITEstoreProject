@@ -31,12 +31,30 @@
                 <tr>
                     <td>Brand ID</td>
                     <td>Brand Name</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
                 </tr>
                 @foreach (BrandModel brands in Model)
                 {
                     <tr>
                         <td>@brands.Id</td>
                         <td>@brands.Name</td>
+                        <td>
+                            <a class="btn btn-outline-primary"
+                                asp-controller="Brand"
+                               asp-action="EditBrand"
+                                asp-route-id="@brands.Id">
+                                Edit
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-outline-danger"
+                                asp-controller="Brand"
+                                asp-action="Delete"
+                                asp-route-id="@brands.Id">
+                                Delete
+                            </a>
+                        </td>
                     </tr>
                 }
 

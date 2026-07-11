@@ -18,8 +18,6 @@ namespace EstoreAdminModule.Controllers
         [Route("/")]
         public ActionResult Index()
         {
-            // BrandService brandService = new BrandService();
-
             List<BrandModel> brandModels = this._brandService.ListBrands();
 
             return View(brandModels);
@@ -41,6 +39,27 @@ namespace EstoreAdminModule.Controllers
         {
 
             this._brandService.CreateBrand(createBrandModel);
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        [Route("EditBrand/{Id:guid}")]
+        public IActionResult EditBrand(Guid Id)
+        {
+
+            UpdateBrandModel updateBrandModel
+                = this._brandService.GetBrandById(Id);
+
+           return View(updateBrandModel);
+        }
+
+        //In update, post and send id as url, we are posting a model and retrieve the Route Paramters {id:Guid}
+        [HttpPost]
+        [Route("EditBrand/{Id:guid}")]
+        public IActionResult EditBrand(UpdateBrandModel updateBrandModel, Guid Id)
+        {
+            this._brandService.UpdateBrand(updateBrandModel);
 
             return RedirectToAction("Index");
         }
