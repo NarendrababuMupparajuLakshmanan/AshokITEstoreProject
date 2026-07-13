@@ -1,4 +1,4 @@
-﻿using EStoreAdminModel.Models;
+﻿using EStoreAdminModel.Models.Brands;
 using Microsoft.EntityFrameworkCore;
 
 namespace EStoreAdminRepository.Repository

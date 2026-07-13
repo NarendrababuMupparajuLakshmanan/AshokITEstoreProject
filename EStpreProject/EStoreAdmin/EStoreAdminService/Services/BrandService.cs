@@ -1,8 +1,8 @@
-﻿using EStoreAdminModel.Models;
-using EStoreAdminModel.ServiceContracts;
+﻿using EStoreAdminModel.ServiceContracts;
 using EStoreAdminRepository.Repository;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using EStoreAdminService.Exceptions;
+using EStoreAdminModel.Models.Brands;
 
 namespace EStoreAdminService.Services
 {
@@ -28,6 +28,22 @@ namespace EStoreAdminService.Services
             };
 
             this._brandRepository.Brands.Add(brandModel);
+            this._brandRepository.SaveChanges();
+
+        }
+
+        public void DeleteBrand(Guid id)
+        {
+            if (id == Guid.Empty)
+                throw new BrandIdNotNullException("Brand Id is not empty");
+
+            BrandModel? brandModel =
+                this._brandRepository.Brands.Where(e => e.Id == id).FirstOrDefault();
+
+            if (brandModel == null)
+                throw new BrandNotNullException("Brand Model is Empty");
+
+            this._brandRepository.Brands.Remove(brandModel);
             this._brandRepository.SaveChanges();
 
         }

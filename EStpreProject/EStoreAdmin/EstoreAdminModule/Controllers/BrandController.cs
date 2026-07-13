@@ -1,4 +1,4 @@
-﻿using EStoreAdminModel.Models;
+﻿using EStoreAdminModel.Models.Brands;
 using EStoreAdminModel.ServiceContracts;
 using EStoreAdminService.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -15,7 +15,7 @@ namespace EstoreAdminModule.Controllers
             _brandService = brandService;
         }
 
-        [Route("/")]
+        [Route("ListBrand")]
         public ActionResult Index()
         {
             List<BrandModel> brandModels = this._brandService.ListBrands();
@@ -60,6 +60,16 @@ namespace EstoreAdminModule.Controllers
         public IActionResult EditBrand(UpdateBrandModel updateBrandModel, Guid Id)
         {
             this._brandService.UpdateBrand(updateBrandModel);
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        [Route("DeleteBrand/{Id:guid}")]
+        public IActionResult DeleteBrand(Guid Id)
+        {
+            //Implement Delete Brand Logic
+            this._brandService.DeleteBrand(Id);
 
             return RedirectToAction("Index");
         }

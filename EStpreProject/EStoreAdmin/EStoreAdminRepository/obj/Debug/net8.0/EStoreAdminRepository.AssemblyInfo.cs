@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EStoreAdminRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d25fdc80750abc8eac35bac0c2df2110af06854d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd5b0205ba5f26b4086899fb0f651cdf941e9124")]
 [assembly: System.Reflection.AssemblyProductAttribute("EStoreAdminRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EStoreAdminRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

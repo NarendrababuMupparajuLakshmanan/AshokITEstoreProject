@@ -18,10 +18,21 @@ builder.Services.Add(new ServiceDescriptor(
     typeof(BrandService),
     ServiceLifetime.Transient));
 
+//Register TypeService as an IOC
+builder.Services.Add(new ServiceDescriptor(
+    typeof(ITypeService),
+    typeof(TypeService),
+    ServiceLifetime.Transient));
+
 string _connectionstring = builder.Configuration.GetConnectionString("EStoreAdminConnection").ToString();
 
 //Create Object for Repository Class (BrandRepository) and Register it as an IOC
 builder.Services.AddDbContext<BrandRepository>(options =>
+{
+    options.UseSqlServer(_connectionstring);
+});
+
+builder.Services.AddDbContext<TypeRepository>(options =>
 {
     options.UseSqlServer(_connectionstring);
 });

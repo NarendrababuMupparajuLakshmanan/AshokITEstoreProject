@@ -1,4 +1,4 @@
-﻿using EStoreAdminModel.Models;
+﻿using EStoreAdminModel.Models.Brands;
 
 namespace EStoreAdminModel.ServiceContracts
 {
@@ -11,5 +11,7 @@ namespace EStoreAdminModel.ServiceContracts
         UpdateBrandModel GetBrandById(Guid id);
 
         void UpdateBrand(UpdateBrandModel updateBrandModel);
+
+        void DeleteBrand(Guid id);
     }
 }

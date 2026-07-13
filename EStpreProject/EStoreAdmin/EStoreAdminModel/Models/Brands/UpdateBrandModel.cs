@@ -1,4 +1,4 @@
-﻿namespace EStoreAdminModel.Models
+﻿namespace EStoreAdminModel.Models.Brands
 {
     public class UpdateBrandModel
     {
