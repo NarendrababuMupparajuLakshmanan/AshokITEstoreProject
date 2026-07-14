@@ -2,7 +2,6 @@
 using EStoreAdminModel.ServiceContracts;
 using EStoreAdminRepository.Repository;
 using EStoreAdminService.Exceptions;
-using System.Reflection.Metadata;
 
 namespace EStoreAdminService.Services
 {
@@ -13,6 +12,23 @@ namespace EStoreAdminService.Services
         public TypeService(TypeRepository typeRepository)
         {
             _typeRepository = typeRepository;
+        }
+
+        public void CreateType(CreateTypeModel createTypeModel)
+        {
+            if (createTypeModel == null) 
+            {
+                throw new TypeNotNullException("Type Model is not null");
+            }
+
+            TypeModel typeModel = new TypeModel()
+            {
+                Id = Guid.NewGuid(),
+                Name = createTypeModel.Name
+            };
+
+            this._typeRepository.Types.Add(typeModel);
+            this._typeRepository.SaveChanges();
         }
 
         public void DeleteType(Guid Id)
@@ -40,6 +56,43 @@ namespace EStoreAdminService.Services
                 this._typeRepository.Types.ToList();
 
             return typeModels;
+        }
+
+        public UpdateTypeModel GetTypeById(Guid Id)
+        {
+            if (Id == Guid.Empty)
+            {
+                throw new TypeIdNotNullException("Type Id is not null or empty");
+            }
+
+            TypeModel? typeModel =
+                this._typeRepository.Types.Where(id =>  id.Id == Id).FirstOrDefault();
+
+            if (typeModel == null)
+                throw new TypeNotNullException("Type Model is null");
+
+            UpdateTypeModel updateTypeModel = new UpdateTypeModel()
+            {
+                Id = typeModel.Id,
+                Name = typeModel.Name,
+            };
+
+            return updateTypeModel;
+        }
+
+        public void UpdateType(UpdateTypeModel updateTypeModel)
+        {
+            if (updateTypeModel == null)
+                throw new TypeNotNullException("Update Type Model is null");
+
+            TypeModel typeModel = new TypeModel()
+            {
+                Id = updateTypeModel.Id,
+                Name = updateTypeModel.Name,
+            };
+
+            this._typeRepository.Types.Update(typeModel);
+            this._typeRepository.SaveChanges();
         }
     }
 }

@@ -8,5 +8,11 @@ namespace EStoreAdminModel.ServiceContracts
         List<TypeModel> GetAllTypes();
 
         void DeleteType(Guid Id);
+
+        void CreateType(CreateTypeModel createTypeModel);
+
+        UpdateTypeModel GetTypeById(Guid Id);
+
+        void UpdateType(UpdateTypeModel updateTypeModel);
     }
 }
