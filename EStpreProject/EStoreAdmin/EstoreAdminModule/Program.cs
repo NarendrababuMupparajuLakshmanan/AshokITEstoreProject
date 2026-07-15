@@ -37,6 +37,11 @@ builder.Services.AddDbContext<TypeRepository>(options =>
     options.UseSqlServer(_connectionstring);
 });
 
+builder.Services.AddDbContext<ProductRepository>(options =>
+{
+    options.UseSqlServer(_connectionstring);
+});
+
 //Builder.Build is a Method is used to create all objects to realted to Web Application
 //as a readonly 
 var app = builder.Build();

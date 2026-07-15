@@ -14,7 +14,7 @@ namespace EstoreAdminModule.Controllers
         }
 
         [HttpGet]
-        [Route("/")]
+        [Route("ListType")]
         public IActionResult ListTypes()
         {
             List<TypeModel> typeModels = this._typeService.GetAllTypes();
