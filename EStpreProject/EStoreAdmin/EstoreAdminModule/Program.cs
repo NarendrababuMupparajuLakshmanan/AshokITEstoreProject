@@ -24,6 +24,12 @@ builder.Services.Add(new ServiceDescriptor(
     typeof(TypeService),
     ServiceLifetime.Transient));
 
+//Register ProdcutService as an IOC
+builder.Services.Add(new ServiceDescriptor(
+    typeof(IProductService),
+    typeof(ProductService),
+    ServiceLifetime.Transient));
+
 string _connectionstring = builder.Configuration.GetConnectionString("EStoreAdminConnection").ToString();
 
 //Create Object for Repository Class (BrandRepository) and Register it as an IOC

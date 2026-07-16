@@ -14,6 +14,8 @@ namespace EStoreAdminRepository.Repository
         
         }
 
+        public DbSet<ProductModel> Products { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

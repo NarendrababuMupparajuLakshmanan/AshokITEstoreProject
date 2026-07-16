@@ -16,7 +16,7 @@ namespace EstoreAdminModule.Controllers
         }
 
         [Route("ListBrand")]
-        public ActionResult Index()
+         public ActionResult Index()
         {
             List<BrandModel> brandModels = this._brandService.ListBrands();
 

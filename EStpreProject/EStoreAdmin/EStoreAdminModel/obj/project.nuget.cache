@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "krgDDeRhwKM=",
+  "dgSpecHash": "2FYG9SuJ6Gs=",
   "success": true,
   "projectFilePath": "D:\\GItSourceCode_AshokIT\\AshokITEstoreProject\\EStpreProject\\EStoreAdmin\\EStoreAdminModel\\EStoreAdminModel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
